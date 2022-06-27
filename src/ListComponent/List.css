@@ -1,0 +1,33 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  min-height: calc(100vh - 72px);
+  max-height: calc(100vh - 72px);
+  height: calc(100vh - 72px);
+  padding: 16px;
+  box-sizing: border-box;
+  background: rgba(211, 211, 211, 0.17);
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100px;
+  border: 2px solid pink;
+  padding: 16px;
+  margin: 0 0 16px 0;
+  color: lightpink;
+  background: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
