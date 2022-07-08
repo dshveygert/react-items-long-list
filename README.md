@@ -16,6 +16,3 @@ Track the scroll of the window. When scrolling down - add a new item to the end 
 
 - Support scrolling up
 - Show browser native scroll
-
-
-#### Deployed here http://api.shveygert.de:34217/
